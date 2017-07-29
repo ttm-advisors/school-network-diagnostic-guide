@@ -5,4 +5,4 @@
 
 
 # Appendix
-## [Using and Writing with Gitbook] 
+## [Using and Writing with Gitbook](using-gitbook.md)
