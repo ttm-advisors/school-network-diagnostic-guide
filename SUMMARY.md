@@ -6,3 +6,4 @@
 
 # Appendix
 ## [Using and Writing with Gitbook](using-gitbook.md)
+* [Using and Writing with Gitbook](using-gitbook.md)
