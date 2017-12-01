@@ -9,3 +9,13 @@
 
 * [Using and Writing with Gitbook](using-gitbook.md)
 
+
+# Summary
+
+* [What is DNS?](DNS.md)
+* [How can I do X?](second-question.md)
+
+
+# Appendix
+## What is Gitbook?
+* [Using - and Writing - with Gitbook](using-gitbook.md)
