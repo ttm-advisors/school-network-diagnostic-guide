@@ -20,5 +20,9 @@ This book is licensed using Creative Commons and is accessible as via Gitbooks a
 
 ## About the Sponsors and Authors
 
-![TTM Advisors Logo](/images/TTM_Advisors_LLC_Logo.png =250x)\)
+![](/assets/heckscher-logo.png)
+
+  
+
+
 
