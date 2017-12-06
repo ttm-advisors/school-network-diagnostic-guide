@@ -1,21 +1,16 @@
 # Summary
 
-* [Introduction](README.md)
-* [What is XYZ?](first-question.md)
-* [How can I do X?](second-question.md)
+## Overview
+
+* [About this Guide](README.md)
+* [Useful Computer Network Metaphors](INTRO.md)
+
+## Network Concepts and Terms
+
 * [What is routing and route tables?](what-is-routing-and-route-tables.md)
-
-## Using and Writing with Gitbook
-
-* [Using and Writing with Gitbook](using-gitbook.md)
-
-
-# Summary
-
 * [What is DNS?](DNS.md)
-* [How can I do X?](second-question.md)
 
-
-# Appendix
 ## What is Gitbook?
+
 * [Using - and Writing - with Gitbook](using-gitbook.md)
+
