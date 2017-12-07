@@ -1,6 +1,15 @@
-Getting one's head around the overall concept is usually the first, and often the most daunting concept for people getting their heads around computer networks. 
+Getting one's head around the overall concept is usually the first, and often the most daunting concept for people getting their heads around computer networks.
 
-**Water** is a common metaphor that people like to use and in many ways works well.
+**Water** is a common metaphor that people like to use and in many ways works well in that purpose.
+
+Water has to come from somewhere before it gets to our homes. Our water usually originates at a local reservoir, a nearby lake, or perhaps from a well that taps into the underground water table (for a moment we'll set aside rain and how the water got there in the first place, though it does provide some useful context later on when we get to the concept of caching).
+
+For now let's think of the reservoirs and lakes as all of the resources on the internet -- all the websites, servers, data, etc. that you'll like to get data from (and send data too, which as we'll see in a minute is where the water analogy breaks down a bit)
+
+From there a reservoir or lake water needs to flow from, say, a lake to our homes. The first step in that journey is very large pipelines (aqueducts) that carry water in large quantities. Along the way the water, as is the case for New York City, often is stored temporarily in a smaller holding reservoir. In the case of New York City water is stored along the way to the city in the Kensico and Hillview reservoirs.
+
+The reservoirs bring to mind the idea in computer networks the idea of a cache. Caching - nearby storage of a piece of data whose master version (or in the case of water, its source) is further away from where its used - is a major part of computer networking, and computing more generally. Going back to our water example, services like CloudFlare, which hold cached version of popular web site in caches geographically scatter around the world, serve in a similar way to the Kensico and Hillview reservoirs do for NYC. 
+
 
 think about a lake or well\), a way to get the water to your house \(pipes\) and a way to get it distributed in your home \(faucets, toilets\)
 
@@ -27,4 +36,3 @@ In 2007 New York City began installing cables, connections and other things requ
 So what is the problem in any one school building?
 
 Now your asking a really complicated question.  The answer is maybe problem 2 \(it does not get the last mile\), problem 3, \(it does not get into the building with enough power for all the students\), problem 4 \(it does not get to where the students need it with enough power for all the students in the class\) OR A COMBINATION OF ALL OF THESE PROBLEMS.
-
