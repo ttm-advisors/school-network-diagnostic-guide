@@ -1,6 +1,6 @@
-Getting one's head around the overall concept is usually the first, and often the most daunting concept for people getting their heads around computer networks. 
+Getting one's head around the overall concept is usually the first, and often the most daunting concept for people getting their heads around computer networks.
 
-**Water** is a common metaphor that people like to use and in many ways works well.
+Water is a common metaphor that people like to use and in many ways works well.
 
 think about a lake or well\), a way to get the water to your house \(pipes\) and a way to get it distributed in your home \(faucets, toilets\)
 
