@@ -1,4 +1,5 @@
 Getting one's head around the overall concept is usually the first, and often the most daunting concept for people getting their heads around computer networks.
+<<<<<<< HEAD
 
 **Water** is a common metaphor that people like to use and in many ways works well in that purpose.
 
@@ -10,6 +11,10 @@ From there a reservoir or lake water needs to flow from, say, a lake to our home
 
 The reservoirs bring to mind the idea in computer networks the idea of a cache. Caching - nearby storage of a piece of data whose master version (or in the case of water, its source) is further away from where its used - is a major part of computer networking, and computing more generally. Going back to our water example, services like CloudFlare, which hold cached version of popular web site in caches geographically scatter around the world, serve in a similar way to the Kensico and Hillview reservoirs do for NYC. 
 
+=======
+
+Water is a common metaphor that people like to use and in many ways works well.
+>>>>>>> dba4b89075de57c97e3bb47144ec84bf33a72e5e
 
 think about a lake or well\), a way to get the water to your house \(pipes\) and a way to get it distributed in your home \(faucets, toilets\)
 
