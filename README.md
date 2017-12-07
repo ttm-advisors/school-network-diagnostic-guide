@@ -1,10 +1,12 @@
 ## School Networking - A Layperson's Guide
 
-Few could deny how important it is that 21st century public schools have reliable, stable, low latency computer networks.  The internet has become a primary delivery format for numerous curricula, programs, and learning material across subjects. Much of classroom management, school administration - even attendance tracking - is now done using apps, websites, and platform that depend on near constant access to remote and cloud based server resources. The computer network - its internal wired and wireless LAN along with its "last-mile" connection to internet - is essential
+It is crucial that 21st century public schools have reliable, stable, low latency computer networks.  The internet has become a primary delivery format for numerous curricula, programs, and learning material across subjects. Much of classroom management, school administration - even attendance tracking - is now done using apps, websites, and platform that depend on near constant access to remote and cloud based server resources. The computer network - both its internal wired and wireless LAN along with its "last-mile" connection to the internet - is essential.
 
-Unfortunately in public schools across the country, including in New York City, whose school communities were the impetus for this guide, it's often the case that networks are a limiter rather than an academic enabler. Billions of dollars in investment have been spent nationwide and we're still far from where we need to be.
+Unfortunately in public schools across the country, including in New York City whose school communities were the impetus for this guide, it's often too often the case that networks are a limiter rather than an academic enabler. Billions of dollars in federal (e.g., erate), state, local, and private donation investment have been spent nationwide and we're still far from where we need to be, especially in our most economically disadvantaged communities.
 
-This guide is written as a starting point to address these challenges, if not at a systemic level at least at the level of the individual school.
+This guide was written for two related purposes:
+* Provide basic "lay person" guide to networking, especially networks in schools, in order to provide some context to the problem and various solutions
+* Provide some additional resources, tools, tips, etc. that may be useful to those on the ground in public schools when faced with network challenges.
 
 ## Intended Audience
 
@@ -16,13 +18,15 @@ The intended audience for this guide includes:
 
 ## Note on licensing
 
-This book is licensed using Creative Commons and is accessible as via Gitbooks and Github as an open source project. If you're interested in adding to this book that is very welcome. As is common with most open source projects, the best way to do that is to fork the repository, make your additions and edits, and then create a pull request to ask that your add be reviewed and merged back into the master version \(master repository\).
+This book is licensed using Creative Commons and is accessible as via Gitbooks and Github as an open source project.
+
+If you're interested in adding to this book that is very welcome to suggest updates. As is common with most open source projects, do by forking the repository, making your additions and edits, and then creating a pull request to ask that your edits be reviewed and, if accepted by the maintainers/editors (Heckscher and TTM Advisors; see below), merged back into the master version \(master repository\).
 
 ## About the Sponsors and Authors
 
-![](/assets/heckscher-logo.png)
-
-  
+The original version of this guide was developed by TTM Advisors LLC under the sponsorship of the Heckscher Foundation for Children.
 
 
 
+![Logo of Heckscher Foundation for Children](/assets/heckscher-logo.png)
+![](/assets/TTM_Advisors_LLC_Logo.png size=250px)
