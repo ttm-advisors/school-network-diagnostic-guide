@@ -2,6 +2,7 @@
 
 ## Context
 
+* [About This Guide](README.md)
 * [Useful Computer Network Metaphors](metaphors.md)
 
 ## Network Concepts and Terms
@@ -12,11 +13,10 @@
 
 ## Table of Contents
 
-* [About This Guide](README.md)
 * [Setting the Context: Metaphorical Views of Computer Networks](INTRO.md)
-* Computer Networking Overview
-* What's a LAN?
-* What's Wifi?
-* What's the WAN?
-* Building Construction
+* [Computer Networking Overview](computer-networking-overview.md)
+* [What's a LAN?](whats-a-lan.md)
+* [What's Wifi?](whats-wifi.md)
+* [What's the WAN?](whats-the-wan.md)
+* [Building Construction](building-construction.md)
 
