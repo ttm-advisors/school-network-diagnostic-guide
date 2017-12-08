@@ -1,18 +1,18 @@
-Getting one's head around the overall concept is usually the first, and often the most daunting concept for people getting their heads around computer networks.
+Comprehending computer networkings can be daunting. Analogies can help to make them easier to grasp. Here's some ways that have helped other people get their head around networks
 
-**Water** is a common metaphor that people like to use and in many ways works well in that purpose.
+**Water** is a common metaphor that people like to use and in many ways works well.
 
-Water has to come from somewhere before it gets to our homes. Our water usually originates at a local reservoir, a nearby lake, or perhaps from a well that taps into the underground water table (for a moment we'll set aside rain and how the water got there in the first place, though it does provide some useful context later on when we get to the concept of caching).
+Like a web site we want to view, water has to have an origin. It has to come from somewhere before it gets to our homes. Potable water usually originates at a local reservoir, a nearby lake, or perhaps from a well that taps into the underground water table (for a moment we'll set aside rain and how the water got there in the first place, though it does provide some useful context later on when we get to the concept of caching).
 
-For now let's think of the reservoirs and lakes as all of the resources on the internet -- all the websites, servers, data, etc. that you'll like to get data from (and send data too, which as we'll see in a minute is where the water analogy breaks down a bit)
+For let's think of the resources on the internet -- all the websites, servers, data, etc. as reservoirs and lakes from which you'll draw, like water, data from (that you need to send data back, unlike water supply, we'll deal with in a bit).
 
-From there a reservoir or lake water needs to flow from, say, a lake to our homes. The first step in that journey is very large pipelines (aqueducts) that carry water in large quantities. Along the way the water, as is the case for New York City, often is stored temporarily in a smaller holding reservoir. In the case of New York City water is stored along the way to the city in the Kensico and Hillview reservoirs.
+From there a reservoir or lake water then starts to flow towards our homes. The first step in that journey is very large pipelines (aqueducts) that carry water in large quantities. Along the way the water, as is the case for New York City, often is stored temporarily in a smaller holding reservoir. In the case of New York City water is stored along the way to the city in the Kensico and Hillview reservoirs.
 
 The reservoirs bring to mind the idea in computer networks of a \(cache\). Caching - nearby storage of a piece of data whose master version is further away from where its used - is critical to modern day computer networking, and computing more generally.
 
 Going back to our water example, caching services like CloudFlare, act as local reservoirs. They distribute stores of the most recent version of popular web sites around the world. When you connect to a popular web site most likely what your device has really connected to is a geographically local store's copy of the website.
 
-Continuing further still with overall idea of networks as we do water, the overall idea of these aqueducts and reservoir can be thought of as the internet generally and that the final aqueduct into your water system as your ISP. And no matter how big pipes are in places, the fastest water will flow is speed through which it can flow through the most narrow pipe and this usually the ISP, the last mile for networks.
+Continuing further still with the overall idea of networks as we do water, the overall idea of these aqueducts and reservoir can be thought of as the internet generally and that the final aqueduct into your water system as your ISP. And no matter how big pipes are in places, the fastest water will flow is speed through which it can flow through the most narrow pipe and this usually the ISP, the last mile for networks.
 
 For purposes of understanding networks, especially networks like those
 
