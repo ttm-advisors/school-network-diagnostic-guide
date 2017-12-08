@@ -1,5 +1,4 @@
 Getting one's head around the overall concept is usually the first, and often the most daunting concept for people getting their heads around computer networks.
-<<<<<<< HEAD
 
 **Water** is a common metaphor that people like to use and in many ways works well in that purpose.
 
@@ -9,12 +8,22 @@ For now let's think of the reservoirs and lakes as all of the resources on the i
 
 From there a reservoir or lake water needs to flow from, say, a lake to our homes. The first step in that journey is very large pipelines (aqueducts) that carry water in large quantities. Along the way the water, as is the case for New York City, often is stored temporarily in a smaller holding reservoir. In the case of New York City water is stored along the way to the city in the Kensico and Hillview reservoirs.
 
-The reservoirs bring to mind the idea in computer networks the idea of a cache. Caching - nearby storage of a piece of data whose master version (or in the case of water, its source) is further away from where its used - is a major part of computer networking, and computing more generally. Going back to our water example, services like CloudFlare, which hold cached version of popular web site in caches geographically scatter around the world, serve in a similar way to the Kensico and Hillview reservoirs do for NYC. 
+The reservoirs bring to mind the idea in computer networks of a \(cache\). Caching - nearby storage of a piece of data whose master version is further away from where its used - is critical to modern day computer networking, and computing more generally.
 
-=======
+Going back to our water example, caching services like CloudFlare, act as local reservoirs. They distribute stores of the most recent version of popular web sites around the world. When you connect to a popular web site most likely what your device has really connected to is a geographically local store's copy of the website.
 
-Water is a common metaphor that people like to use and in many ways works well.
->>>>>>> dba4b89075de57c97e3bb47144ec84bf33a72e5e
+Continuing further still with overall idea of networks as we do water, the overall idea of these aqueducts and reservoir can be thought of as the internet generally and that the final aqueduct into your water system as your ISP. And no matter how big pipes are in places, the fastest water will flow is speed through which it can flow through the most narrow pipe and this usually the ISP, the last mile for networks.
+
+For purposes of understanding networks, especially networks like those
+
+
+
+Of course, there is no pipe directly the aqueducts and pipelines to your home, office, or in this case, school.
+
+
+
+which hold the most recent versions of popular web site in caches geographically scatter around the world, serve in a similar way to the Kensico and Hillview reservoirs do for NYC.
+
 
 think about a lake or well\), a way to get the water to your house \(pipes\) and a way to get it distributed in your home \(faucets, toilets\)
 

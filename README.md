@@ -2,11 +2,15 @@
 
 It is crucial that 21st century public schools have reliable, stable, low latency computer networks.  The internet has become a primary delivery format for numerous curricula, programs, and learning material across subjects. Much of classroom management, school administration - even attendance tracking - is now done using apps, websites, and platform that depend on near constant access to remote and cloud based server resources. The computer network - both its internal wired and wireless LAN along with its "last-mile" connection to the internet - is essential.
 
-Unfortunately in public schools across the country, including in New York City whose school communities were the impetus for this guide, it's often too often the case that networks are a limiter rather than an academic enabler. Billions of dollars in federal (e.g., erate), state, local, and private donation investment have been spent nationwide and we're still far from where we need to be, especially in our most economically disadvantaged communities.
+Unfortunately in public schools across the country, including in New York City whose school communities were the impetus for this guide, it's too often the case that networks are a limiter rather than an academic enabler. Billions of dollars in federal (e.g., eRate), state, local, and private donation investment have been spent nationwide and we're still far from where we need to be, especially in our most economically disadvantaged communities.
 
-This guide was written for two related purposes:
-* Provide basic "lay person" guide to networking, especially networks in schools, in order to provide some context to the problem and various solutions
-* Provide some additional resources, tools, tips, etc. that may be useful to those on the ground in public schools when faced with network challenges.
+This guide was drafted for two related purposes:
+* To provide basic "lay person" guide to networking, especially networks in schools in order to provide some context to the problem and various solutions that exist. The intention style of the guide is heavy use of metaphor and analogy to clarify deeper technical points.
+* Provide some additional resources, tools, tips, etc. that may be useful to those on the ground in public schools when faced with network challenges and take one of the following themes:
+	* Better Direct Monitoring & Diagnosis
+	* Better Direct Intervention & Remediation
+	* Better Short-Term Advocacy
+	* Better Long-Term Advocacy
 
 ## Intended Audience
 
