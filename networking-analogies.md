@@ -2,11 +2,11 @@ Comprehending computer networkings can be daunting. Analogies can help to make t
 
 **Water** is a common metaphor that people like to use and in many ways works well.
 
-Like a web site we want to view, water has to have an origin. It has to come from somewhere before it gets to our homes. Potable water usually originates at a local reservoir, a nearby lake, or perhaps from a well that taps into the underground water table (for a moment we'll set aside rain and how the water got there in the first place, though it does provide some useful context later on when we get to the concept of caching).
+Like a web site we want to view, water has to have an origin. It has to come from somewhere before it gets to our homes. Potable water usually originates at a local reservoir, a nearby lake, or perhaps from a well that taps into the underground water table \(for a moment we'll set aside rain and how the water got there in the first place, though it does provide some useful context later on when we get to the concept of caching\).
 
-For let's think of the resources on the internet -- all the websites, servers, data, etc. as reservoirs and lakes from which you'll draw, like water, data from (that you need to send data back, unlike water supply, we'll deal with in a bit).
+For let's think of the resources on the internet -- all the websites, servers, data, etc. as reservoirs and lakes from which you'll draw, like water, data from \(that you need to send data back, unlike water supply, we'll deal with in a bit\).
 
-From there a reservoir or lake water then starts to flow towards our homes. The first step in that journey is very large pipelines (aqueducts) that carry water in large quantities. Along the way the water, as is the case for New York City, often is stored temporarily in a smaller holding reservoir. In the case of New York City water is stored along the way to the city in the Kensico and Hillview reservoirs.
+From there a reservoir or lake water then starts to flow towards our homes. The first step in that journey is very large pipelines \(aqueducts\) that carry water in large quantities. Along the way the water, as is the case for New York City, often is stored temporarily in a smaller holding reservoir. In the case of New York City water is stored along the way to the city in the Kensico and Hillview reservoirs.
 
 The reservoirs bring to mind the idea in computer networks of a \(cache\). Caching - nearby storage of a piece of data whose master version is further away from where its used - is critical to modern day computer networking, and computing more generally.
 
@@ -16,16 +16,21 @@ Continuing further still with the overall idea of networks as we do water, the o
 
 For purposes of understanding networks, especially networks like those
 
-
-
 Of course, there is no pipe directly the aqueducts and pipelines to your home, office, or in this case, school.
-
-
 
 which hold the most recent versions of popular web site in caches geographically scatter around the world, serve in a similar way to the Kensico and Hillview reservoirs do for NYC.
 
 
-think about a lake or well\), a way to get the water to your house \(pipes\) and a way to get it distributed in your home \(faucets, toilets\)
+
+
+
+--------
+
+PS Original
+
+-------
+
+
 
 Problem  Number 1: Where does it come from?
 
@@ -50,3 +55,4 @@ In 2007 New York City began installing cables, connections and other things requ
 So what is the problem in any one school building?
 
 Now your asking a really complicated question.  The answer is maybe problem 2 \(it does not get the last mile\), problem 3, \(it does not get into the building with enough power for all the students\), problem 4 \(it does not get to where the students need it with enough power for all the students in the class\) OR A COMBINATION OF ALL OF THESE PROBLEMS.
+
