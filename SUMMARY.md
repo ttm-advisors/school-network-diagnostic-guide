@@ -4,6 +4,7 @@
 
 * [About This Guide](README.md)
 * [Useful Computer Network Analogies](networking-analogies.md)
+* [MDFs and IDFs](MDFsIDFs.md)
 
 ## Network Concepts and Terms
 
