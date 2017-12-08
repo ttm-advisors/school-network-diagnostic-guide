@@ -33,4 +33,4 @@ The original version of this guide was developed by TTM Advisors LLC under the s
 
 
 ![Logo of Heckscher Foundation for Children](/assets/heckscher-logo.png)
-<img src="/assets/TTM_Advisors_LLC_Logo.png" width="250" wrap="inline">
+<img src="/assets/TTM_Advisors_LLC_Logo.png" width="150" wrap="inline">
