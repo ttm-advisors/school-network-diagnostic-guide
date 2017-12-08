@@ -3,20 +3,18 @@
 ## Context
 
 * [About This Guide](README.md)
-* [Useful Computer Network Metaphors](metaphors.md)
+* [Useful Computer Network Analogies](networking-analogies.md)
 
 ## Network Concepts and Terms
 
-* [What is routing and route tables?](routing.md)
-* [What is DNS?](DNS.md)
+* [Routing and Route Tables](routing.md)
+* [WiFi](Wifi.md)
+* [DNS \(Domain Name System\)](DNS.md)
 * [About this Guide](README.md)
 
-## Table of Contents
+## Hardware & Equipment
 
-* [Setting the Context: Metaphorical Views of Computer Networks](INTRO.md)
-* [Computer Networking Overview](computer-networking-overview.md)
 * [What's a LAN?](whats-a-lan.md)
-* [What's Wifi?](whats-wifi.md)
+* [Building Construction Considerations](building-construction.md)
 * [What's the WAN?](whats-the-wan.md)
-* [Building Construction](building-construction.md)
 
