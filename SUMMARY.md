@@ -7,14 +7,14 @@
 
 ## Network Concepts and Terms
 
-* [Routing and Route Tables](routing.md)
+* [LANs](LANs.md)
 * [WiFi](Wifi.md)
+* [WANs](WANs.md)
+* [Routing and Route Tables](routing.md)
 * [DNS \(Domain Name System\)](DNS.md)
 * [About this Guide](README.md)
 
 ## Hardware & Equipment
 
-* [What's a LAN?](whats-a-lan.md)
 * [Building Construction Considerations](building-construction.md)
-* [What's the WAN?](whats-the-wan.md)
 
