@@ -1,14 +1,55 @@
-Comprehending computer networkings can be daunting. Analogies can help to make them easier to grasp. Here's some ways that have helped other people get their head around networks
+Perhaps the most common metaphor used to describe computer networks is that of our **water** system. Many computer networking terms, "pipe" being perhaps the best example, come from the water system.
 
-**Water** is a common metaphor that people like to use and in many ways works well.
+Just as our water comes originally from a reservoir, lake, or well - perhaps one quite distant, so too does the data on our devices' screens start on a remote server that might be located nearly anywhere on the planet. Water embarks on its journey to your bathtub in enormous pipelines \(aqueducts\). Similarly data departs a server to traverse first the massive trunk lines, owned by global telecoms, and which compose the core of the public internet (the "internet backbone").
 
-Like a web site we want to view, water has to have an origin. It has to come from somewhere before it gets to our homes. Potable water usually originates at a local reservoir, a nearby lake, or perhaps from a well that taps into the underground water table \(for a moment we'll set aside rain and how the water got there in the first place, though it does provide some useful context later on when we get to the concept of caching\).
+As water flows closer to consumers, it then enters the smaller pipes owned by municipal water companies that distribute water to buildings. Similarly data passes from the public internet backbone to pipes that get smaller as they get closer to the end user.
+
+Finally water enters a building where it flows through plumbing to various floors and ultimately to bathrooms, laundry rooms, kitchens, etc. for end use. Data from the internet similarly enters a building or how via a router or modem after which it travels through a local wired or wireless network to the end user.
+
+Compare:
+
+| Water                          | Data (on a computer network)                     |
+|--------------------------------|--------------------------------------|
+| Starts in a well, lake,  or reservoir (where it was collected from rain and nearby natural sources such as springs, streams, etc.)| Starts on a remote server (to where it was uploaded by a programmer, author, creator, data scientists, another computer, etc.)|
+| Flows first through large pipelines as it travels to to cities and towns | Flows from server facilities first across trunk lines that compose the internet backbone
+| Is routed across a region or state into various smaller pipes that channel water to specific municipal water districts | Is routed across gradually smaller lines (size being measured by how much data each line can handle at any one time)
+| Water enters the smaller system of pipes that compose a municipal water system (e.g., the pipes that run under the street and into buildings) | Data enters the network of an Internet Service Providers, where it transverses a set lines that are geographically connected from a central connection to the internet backbone to points nearby individual homes, businesses. |
+| Water enters passes into a building water main and enters the buildings' plumbing | Data travels its "last mile" either over a line such as DSL or cable (or alternatively in the case of, say, wireless device using cellular service, from the local cellular tower wirelessly to the device) |
+| Water is routed with the home to sinks, toilets, baths, etc. | Data comes in via a router or modem and is then routed within an internal business, school, or home network, likely using wireless (wifi) technology to connect individual devices to the network, though servers and desktops may use a wired connection to connect the local network. |
+
+Ownership, control, and responsibility for the network are useful points of comparison as well as they illuminate governance and accountability considerations topics relevant
+
+| Water | Home Networks | Business Networks | School Networks |
+|-------|---------------|-------------------|------------------|
+| The large pipes that carry high volumes of water within and between states are controlled and managed by large public or quasi-public agencies that manage distribution | The large trunk lines that form the internet backbone are | (Same as Home) | (Same as Home)
+| Municipal water companies control distribution in geography and own (or control) a network a piping within a geography |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ he first step in that journey is . Along the way the water, as is the case for New York City, often is stored temporarily in a smaller holding reservoir. In the case of New York City water is stored along the way to the city in the Kensico and Hillview reservoirs.
+
+The reservoirs bring to mind the idea in computer networks of a \(cache\). Caching - nearby storage of a piece of data whose master version is further away from where its used - is critical to modern day computer networking, and computing more generally.
+
+
+It has to come from somewhere before it gets to our homes. Potable water usually originates at a , or perhaps from a well that taps into the underground water table \(for a moment we'll set aside rain and how the water got there in the first place, though it does provide some useful context later on when we get to the concept of caching\).
 
 For let's think of the resources on the internet -- all the websites, servers, data, etc. as reservoirs and lakes from which you'll draw, like water, data from \(that you need to send data back, unlike water supply, we'll deal with in a bit\).
 
-From there a reservoir or lake water then starts to flow towards our homes. The first step in that journey is very large pipelines \(aqueducts\) that carry water in large quantities. Along the way the water, as is the case for New York City, often is stored temporarily in a smaller holding reservoir. In the case of New York City water is stored along the way to the city in the Kensico and Hillview reservoirs.
+From there a reservoir or lake water then starts to flow towards our homes.
 
-The reservoirs bring to mind the idea in computer networks of a \(cache\). Caching - nearby storage of a piece of data whose master version is further away from where its used - is critical to modern day computer networking, and computing more generally.
 
 Going back to our water example, caching services like CloudFlare, act as local reservoirs. They distribute stores of the most recent version of popular web sites around the world. When you connect to a popular web site most likely what your device has really connected to is a geographically local store's copy of the website.
 
@@ -56,3 +97,8 @@ So what is the problem in any one school building?
 
 Now your asking a really complicated question.  The answer is maybe problem 2 \(it does not get the last mile\), problem 3, \(it does not get into the building with enough power for all the students\), problem 4 \(it does not get to where the students need it with enough power for all the students in the class\) OR A COMBINATION OF ALL OF THESE PROBLEMS.
 
+
+\(for a moment we'll set aside how the water got there in the first place - we'll to that in a bit when we introduce the concept of caching\).
+
+
+ .  over which internet traffic   itself connected via a very large pipe to the public internet, which itself is built up of massive pipes that form the "internet backbone" itself.
