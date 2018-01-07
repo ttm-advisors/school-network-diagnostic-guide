@@ -40,15 +40,4 @@ We encourage you to propose edits and additions to this book. As is common with 
 
 ## About the Sponsors and Authors
 
-The original version of this guide was developed by TTM Advisors LLC under the sponsorship of the [Heckscher Foundation for Children]().
-
-
-<table border="0" align="center">
-<tr>
-<td border="0">
-<img src="/assets/heckscher-logo.png" width="150" wrap="inline">
-</td>
-<td border="0"><img src="/assets/TTM_Advisors_LLC_Logo.png"  width="150" wrap="inline">
-</td>
-</tr>
-</table>
+The original version of this guide was developed by TTM Advisors LLC under the sponsorship of the [Heckscher Foundation for Children](https://www.heckscherfoundation.org/).
