@@ -7,7 +7,7 @@
     "plugins": ["bibtex-indexed-cite", "url-embed"],
     "pluginsConfig": {
       "bibtex-indexed-cite": {
-          "path": "https://worldaftercapital.gitbooks.io/worldaftercapital/content/"                
+          "path": "https://ttm-advisors.gitbooks.io/school-network-diagnostic-guide/content/"
       }
-    } 
+    }
 }
