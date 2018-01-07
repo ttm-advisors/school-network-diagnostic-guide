@@ -4,5 +4,4 @@
     "styles": {
       "website": "styles/website.css"
     },
-    "plugins": [ "theme-faq" ]
 }
