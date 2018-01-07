@@ -1,3 +1,8 @@
 {
+    "title": "School Network Diagnostic Guide",
+    "description": "-",
+    "styles": {
+      "website": "styles/website.css"
+    },
     "plugins": [ "theme-faq" ]
 }
