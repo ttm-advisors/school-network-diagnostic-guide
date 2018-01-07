@@ -1,9 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display|Oswald:400,300|Roboto);
 
 .book .book-summary {
-    background-color: #00ACE6;
+    background-color: #004995;
     width: 300px;
 }
+
+
 
 .book .book-summary ul.summary li a,
 .book .book-summary ul.summary li span {
