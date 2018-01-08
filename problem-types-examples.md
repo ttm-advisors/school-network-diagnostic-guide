@@ -7,14 +7,13 @@
 		* Cause 2
 
 ## Frequently Asked Questions
-
 ### Where does the bandwidth come from and is there enough to go around?
 
 New York City has lots of internet to go around in generally. The DOE presently is in the process of upgrading from 24 Gpbs to 240 Gpbs - this is for the entire DOE. This is likely an upgrade that will soon enough be too little.
 
 ###  How does it get to a school building?
 
-The problem with access for schools starts with getting enough of it into the school building.  Generally network connectivity to schools must be wired? \(forget about satellites and things that don’t require wires – NYC has too many buildings and obstructions to make transmission other than by wires possible for these purposes\).  It has to come from some central place in NYC \(like a lake or well for water\) to the school building  Let’s call this the “last mile problem”.
+The problem with access for schools starts with getting enough of it into the school building.  Generally network connectivity to schools must be wired? \(satellites and other wireless high bandwidth technologies are generally not a good option – NYC has too many buildings and obstructions to make transmission other than by wires possible for these purposes; mesh networks though are worth watching\). This is the “last mile problem”. Connectivity from the DOE network to school buildings ranges from 10Mbps to 100Mbps via a dedicated ciruit provided by either Verizon or Lighttower.
 
 ### How much does the school  building need?
 
