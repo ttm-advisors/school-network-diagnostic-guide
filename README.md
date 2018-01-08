@@ -1,4 +1,5 @@
-## School Networking - A Layperson's Guide
+** THIS IS A DRAFT STRUCTURE FOR NOW TO ILLUSTRATE HOW THIS MIGHT LOOK AND WORK **
+# A Layperson's Guide
 
 The internet has become a primary delivery format for curricula, programs, and learning material in the nations' K-12 public schools. Much of classroom management, school administration, even attendance tracking, is now done using apps, websites, and platforms that depend on near constant access to cloud and server resources on the internet.
 
@@ -43,7 +44,7 @@ We encourage you to propose edits and additions to this book. As is common with 
 The original version of this guide was developed by TTM Advisors LLC under the sponsorship of the [Heckscher Foundation for Children](https://www.heckscherfoundation.org/).
 
 <table border="0" align="center">
-<tr>
+<tr border="0">
 <td border="0">
 <img src="/assets/heckscher-logo.png" width="150" wrap="inline">
 </td>

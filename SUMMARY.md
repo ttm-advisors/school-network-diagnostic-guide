@@ -1,10 +1,12 @@
 # Summary
 
 * [About This Guide](README.md)
-* [Ways to Think About Computer Networks](networking-analogies.md)
-* [Common Problems from the Inside Out and the OSI model](inside-out.md)
+* [Conceptualizing Networks](networking-analogies.md)
+* [Addressing Problems](problem-types-examples.md)
+* 	[Inside Out Model](inside-out.md)
+* 	[Bottoms Up Model](bottoms-up.md)
 * [User Device Types](user-device-types.md)
-* [School Building Constructions](building-construction.md)
+* [School Building Construction](building-construction.md)
 * [MDFs and IDFs](MDFsIDFs.md)
 * [LANs](LANs.md)
 * [WiFi](Wifi.md)

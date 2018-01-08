@@ -1,8 +1,8 @@
+.DS_Store
 peter.md
 extra.md
 INTRO.md
-
-.DS_Store
+mode-extra.md
 
 # Node rules:
 ## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
