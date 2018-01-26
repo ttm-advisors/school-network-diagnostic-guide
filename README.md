@@ -1,5 +1,5 @@
 ** THIS IS A DRAFT STRUCTURE FOR NOW TO ILLUSTRATE HOW THIS MIGHT LOOK AND WORK **
-# A Layperson's Guide
+# High Speed Internet Access in NYC Public Schools – a Primer for Laypeople and School Administrators
 
 The internet has become a primary delivery format for curricula, programs, and learning material in the nations' K-12 public schools. Much of classroom management, school administration, even attendance tracking, is now done using apps, websites, and platforms that depend on near constant access to cloud and server resources on the internet.
 
@@ -7,7 +7,7 @@ Because of this increased reliance on internet based resources, a school's compu
 
 Unfortunately for too many schools today, their network is more an obstacle than enabler. Billions of dollars in federal, state, local, and private donation investment have been spent nationwide and our school networks still fall short, especially in our most economically disadvantaged communities.
 
-Many want to help -- but also fear throwing good money after bad. The root causes that impede the implementation and maintenance of fast, reliable school networks need to first be understood, and that itself requires those interested in this subject to have shared understanding of the core concepts involved, including the fundamental technological underpinnings regarding how networks work.
+Many want to help but also fear throwing good money after bad. The root causes that impede the implementation and maintenance of fast, reliable school networks need to first be understood, and that itself requires those interested in this subject to have shared understanding of the core concepts involved, including the fundamental technological underpinnings regarding how networks work.
 
 With the mission to create a better and common understanding of root causes and potential remediations in mind, Heckscher Foundation of Children commissioned TTM Advisors to develop the initial version of this GitBook, which we've titled the "School Networking Guide". This GitBook is licensed as open source, with hopes that it will become a base from which material will be edited and added by other interested parties.
 
