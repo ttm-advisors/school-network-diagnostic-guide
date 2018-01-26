@@ -1,28 +1,24 @@
-** THIS IS A DRAFT STRUCTURE FOR NOW TO ILLUSTRATE HOW THIS MIGHT LOOK AND WORK **
 # High Speed Internet Access in NYC Public Schools – a Primer for Laypeople and School Administrators
+## About This Guide
 
 The internet has become a primary delivery format for curricula, programs, and learning material in the nations' K-12 public schools. Much of classroom management, school administration, even attendance tracking, is now done using apps, websites, and platforms that depend on near constant access to cloud and server resources on the internet.
 
-Because of this increased reliance on internet based resources, a school's computer network - its local building network as well as its connection to the public internet are critical infrastructure. The modern public school must have a reliable, stable, low latency computer network.
+Because of this increased reliance on internet based resources, a school's computer network - its local building network as well as its connection to the public internet, are critical educational infrastructure. The modern public school must have a reliable, stable, low latency computer network.
 
 Unfortunately for too many schools today, their network is more an obstacle than enabler. Billions of dollars in federal, state, local, and private donation investment have been spent nationwide and our school networks still fall short, especially in our most economically disadvantaged communities.
 
-Many want to help but also fear throwing good money after bad. The root causes that impede the implementation and maintenance of fast, reliable school networks need to first be understood, and that itself requires those interested in this subject to have shared understanding of the core concepts involved, including the fundamental technological underpinnings regarding how networks work.
+Many want to help but also fear throwing good money after bad. The root causes that impede the implementation and maintenance of fast, reliable school networks need to first be understood. Creating that understanding itself requires those interested in this subject to have a shared understanding of the core concepts involved, including the fundamental technological underpinnings regarding how networks work.
 
-With the mission to create a better and common understanding of root causes and potential remediations in mind, Heckscher Foundation of Children commissioned TTM Advisors to develop the initial version of this GitBook, which we've titled the "School Networking Guide". This GitBook is licensed as open source, with hopes that it will become a base from which material will be edited and added by other interested parties.
+With the mission to create a better and common understanding of root causes and potential remediations in mind, Heckscher Foundation of Children commissioned TTM Advisors to develop the initial version of "High Speed Internet Access in NYC Public Schools – a Primer for Laypeople and School Administrators" you are reading now. This guide has been structured and as a GitBook and is licensed as open source, with hopes that it will become a base from which material will be edited and added by other interested parties.
 
-This guide intended to serve three discrete by related purposes:
-1. This guide is intended to provide a very basic explanation of computer networking suitable for the layperson who may be interested in the topic of public school computer networks, making use of metaphor and analogy to clarify deeper technical points,
-
-Our goals of this GitBook are:
-
-
-* To serve as an additional resource of explanations, tools, and tips to to those on the ground in public schools faced with supporting a computer network, and
-* To Help schools and school advocates with
-	* Direct, hands-on monitoring & diagnosis
-	* Hands-On intervention & remediation
-	* Short-term advocacy (e.g., for vender escalations)
-	* Long-term advocacy (for budgeting, prioritization, etc.)
+This guide intended to serve three related goals:
+1. Provide a basic explanation of computer networking suitable for the layperson who may be interested in the topic of public school computer networks, making use of metaphor and analogy to clarify deeper technical points
+2. Make available to those who "want to help" (e.g., philanthropists; technologists; stakeholders in NYC public schools) a starting point to get a handle on what's going on with the school networks.
+3. To serve as an additional resource of explanations, tools, and tips to to those on the ground in NYC public schools with the following responsibilities:
+	* Direct, hands-on monitoring & diagnosis of network issues
+	* Hands-On intervention & remediation of network issues identified
+	* Short-term advocacy when problems are encountered and can not be resolved on site at the school
+	* Long-term advocacy in order state needs, priorities, around both equipment and funding
 
 ## Intended Audience
 

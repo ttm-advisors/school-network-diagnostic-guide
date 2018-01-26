@@ -1,26 +1,29 @@
-## Where does bandwidth for schools come from and is there enough to go around?
-New York City, given its prominent global stature, is generously supplied with bandwidth to the city. Internet bandwidth comes through the physical lines that pass under the Hudson and East Rivers owned by large global telecoms. These telecoms in turn sell internet access to homes and businesses. Some telecoms also choose to resell/wholesale bandwidth to smaller internet service providers who work directly with home and business end users.
+## Frequently Asked Questions
 
-The NYC Department of Education is comprised of approximately 1,300 school buildings. The internet traffic for devices of the administrators, teachers, and students working and studying in these 1,300 buildings is routed, like a funnel, through one of these private internet service providers. The DOE recently completed a bid process for a new internet service provider to increase total capacity from 24Gpbs to 240Gbps, a 10x increase. Lighttower won the contract.
+* [Where does bandwidth for schools come from and is there enough to go around?](#where-does bandwidth-for-schools-come-from-and-is-there-enough-to-go-around?)
+* [How does it get to a school building?](#how-does-it get-to-a-school-building)
 
-##  How does it get to a school building?
-The problem with access for schools starts with getting enough bandwidth into the school building.
+### Where does bandwidth for schools come from and is there enough to go around?
+New York City, given its prominent global stature, is generously supplied with bandwidth to the city. Internet bandwidth comes through the physical lines, owned by large global telecoms, that pass under the Hudson and East Rivers. These telecoms in turn sell internet access to homes and businesses. Some telecoms also choose to resell/wholesale bandwidth to smaller internet service providers who work directly with home and business end users.
 
-First internet traffic travels from Lightower's internet gateway into large capacity fiber optic wires, leased by the DOE and private to the DOE, that create a "ring" across the city that connect seven Department of Education nodes -- meeting points of network connections.
+The NYC Department of Education is comprised of approximately 1,300 school buildings. The internet traffic for devices of the administrators, teachers, and students working and studying in these 1,300 buildings is routed, like a funnel, through one of these private internet service providers. The DOE recently completed a bid process for a new internet service provider to increase total capacity from 24Gpbs to 240Gbps, a 10x increase. Lightower won the contract and is in the process of doing its upgrade.
 
-Second, school buildings are connected to whichever of these seven nodes is physically closest to them via a wired connection, called a circuit, provided by either Verizon or Lightower. The speed of this connect may ranges from 10 Mbps to 100 Mbps. This connection from the school building to the closet DOE "node" is sometimes referred to as the "last mile problem". 
+###  How does it get to a school building?
+The problem with internet access to schools really starts with getting enough bandwidth into the school building itself. There are two steps involved:
 
-## Why are wired connections used to connect schools?
-Given the concentration of buildings and obstructions in New York City coupled with the bandwidth requirements wireless technologies are not yet practical or price appropriate for connecting schools to the DOE within the city, though high bandwidth wireless technologies are evolving fast. Another exciting development is mesh networking, which uses low power, short distance connectivity. But for time being wired connections for the "last mile" with continue to be the norm.
+* First internet traffic travels from Lightower's internet service into large capacity fiber optic wires, leased by, and private to, the DOE, that create a "ring" across the city that connect seven Department of Education "nodes" -- meeting points of network connections much like the the joints that might connect different water pipes in a plumbing system.
+
+* Second, schools are connected to whichever of these seven nodes is geographically closest to their building via a wired connection, called a circuit, provided by either Verizon or Lightower. The speed of this connect may ranges from 10 Mbps to 100 Mbps. This connection from the school building to the closet DOE "node" is sometimes referred to as the "last mile problem". The DOE has another project underway to upgrade all circuits in the city to 100Mpbs for single school campuses, 150 Mbps for shared campuses.
+
+Together, this ring and the individual circuits used to connect schools to the ring, are sometimes referred to as the DOE's "WAN" (Wide Area Network)
+
+### Why are wired connections used to connect schools?
+Given the concentration of buildings and obstructions in New York City coupled with the bandwidth requirements wireless technologies are not yet practical or price appropriate for connecting schools to the DOE within the city, despite the recent evolution in high bandwidth wireless technologies. An exciting development, is mesh networking, which uses low power, short distance wireless connectivity. For the foreseeable future though last mile wired connections will be the norm.
 
 
+### How much does bandwidth the school building need?
 
-There are two steps
- Generally network connectivity to schools must be wired? \(satellites and other wireless high bandwidth technologies are generally not a good option – NYC has too many buildings and obstructions to make transmission other than by wires possible for these purposes; mesh networks though are worth watching\). Connectivity from the DOE network to school buildings ranges from 10Mbps to 100Mbps via a dedicated ciruit provided by either Verizon or Lighttower.
-
-### How much does the school  building need?
-
-If you have only enough water to run your sink but not your sink and your toilet, you don’t have enough water coming into the house  The same with the internet.  It has to come that last mile with enough “vroom” \(like water pressure\) to serve everyone who wants to use it in a school building.  They call this “band with”, which is the amount of information or data that can come to a computer from the internet \(download speed\) and from a computer back to the internet \(upload speed\).  How much band with is needed in a school?  Way back when the Government said a student needed 10 of something; now it says a student needs 100 of the same thing; but everyone knows that the answer is it depends.  In the water example, if everyone in your house is taking a shower, there isn’t likely to be enough water to go around.  Or to use a more graphic example, suppose that the internet is like a big sewer.  If everyone in a house flushes the toilet at the same time the sewer might fill up to fast and overflow, causing back ups.
+If you have only enough water to run your sink but not your sink and your toilet, you don’t have enough water coming into the house. The same holds true for bandwidth to the internet.  It has to come that last mile with enough “vroom” \(like water pressure\) to serve everyone who wants to use it in a school building.  They call this “band with”, which is the amount of information or data that can come to a computer from the internet \(download speed\) and from a computer back to the internet \(upload speed\).  How much band with is needed in a school?  Way back when the Government said a student needed 10 of something; now it says a student needs 100 of the same thing; but everyone knows that the answer is it depends.  In the water example, if everyone in your house is taking a shower, there isn’t likely to be enough water to go around.  Or to use a more graphic example, suppose that the internet is like a big sewer.  If everyone in a house flushes the toilet at the same time the sewer might fill up to fast and overflow, causing back ups.
 
 ### How do you get the internet in the school building to the students who want to use it?
 
