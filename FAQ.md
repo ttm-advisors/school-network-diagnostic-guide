@@ -1,9 +1,11 @@
-## Frequently Asked Questions
+# Frequently Asked Questions
 
 * [What is "bandwidth"?](#what-is-bandwidth)
 * [Where does bandwidth for schools come from and is there enough to go around?](#where-does-bandwidth-for-schools-come-from-and-is-there-enough-to-go-around)
 * [How does it get to a school building?](#how-does-bandwidth-get-to-a-school-building)
-* [Why are wired connections used to connect schools?](#why are wired connections used to connect schools)
+* [Why are wired connections used to connect schools?](#why-are-wired-connections-used-to-connect-schools)
+* [How much last-mile bandwidth does the school building need?](#how-much-last-mile-bandwidth-does-the-school-building-need)
+* [How do you get the internet in the school building to the students who want to use it?](#how-do-you-get-the-internet-in-the-school-building-to-the-students-who want-to-use-it)
 
 ### What is "bandwidth"?
 Bandwidth is a measure of internet speed -- the amount of information or data (specifically bits -- the 1s and 0s) that can come to a computer from the internet \(download speed\) and from a computer back to the internet \(upload speed\).
@@ -33,10 +35,10 @@ The problem with internet access to schools really starts with getting enough ba
 
 Together - the city's ring and its 7 nodes, as well as the individual circuits used to nodes on the ring to school buildings, are sometimes collectively referred to as the DOE's "Wide Area Network" ("WAN"), especially to distinguish these two components from the both the public internet and well as schools internal networks (Local Area Networks - "LANS", which are discussed in questions further down).
 
-### Why are wired connections - the circuits - used to connect schools?
+### Why are wired connections used to connect schools?
 Given the concentration of buildings and obstructions in New York City coupled with bandwidth requirements, wireless technologies are not yet practical at the price appropriate for connecting schools to the DOE within the city, despite the recent evolution in high bandwidth wireless technologies. An exciting development worth watching too is mesh networking, which uses low power, short distance wireless connectivity that is less dependent on a central connection point. For the foreseeable future though last mile wired connections will be the norm.
 
-### How much does last-mile bandwidth does the school building need?
+### How much last-mile bandwidth does the school building need?
 If you have only enough [water](networking-analogies.md) to run your sink but not your sink and your toilet, you don’t have enough water coming into the house. The same holds true for bandwidth to the internet - just as there needs to be enough water pressure for each toilet and shower, there needs to be enough internet - enough bandwidth - to serve everyone who wants to use it in a school building.
 
 How much bandwidth is needed in a school? A common refrain is that all schools need "high speed internet" or "broadband". [Until 2015 the FCC definition on "high speed" was 4Mbps](https://www.nbcnews.com/tech/internet/faster-internet-fcc-sets-new-definition-broadband-speeds-n296276) when the [FCC definition was upgraded to 25Mbps](https://www.fcc.gov/reports-research/guides/broadband-speed-guide).
@@ -67,20 +69,16 @@ Nowadays in New York City District schools, it's the various administrators' com
 
 One of the early problems Wifi helped solve, especially in schools that  that it allowed
 
-
 In older schools especially, WiFi is an important
 
-
-
+### How do these pieces - the public internet and the DOE connection to it, the DOE ring and nodes that compose its WAN, the last mile, and schools' own 
 
 
 ### New York City has never really figured out how to do it right
-(Note to P.S.: Which specific projects, in 2007 and in 2017, does this refer?)
-
 In 2007 New York City began installing cables, connections and other things required to provide high speed internet to school buildings.  It spent a lot of money, \(over $300 million\) and by one account it did not put adequate controls and oversight in place to ensure that the system-wide upgrade was done properly or within budget.  Surveys done by various people show there are serious limitations on the availability of high speed internet in schools, particularly in areas of underserved students.
 
 In June 2017 New York City asked that companies bid on the right to upgrade the system and has $750 million allocated in a master plan to do so by 2020.  Experts point out that there are serious questions about how the money will be spent and whether by the time the planned upgrades are done they will be adequate.  An [city audit report from 2017](https://comptroller.nyc.gov/wp-content/uploads/documents/SI16_082A.pdf) reports that
 
 ### So what is the problem in any one school building?
 
-This is the multi-facetted, really complicated question.  The answer is maybe problem 2 \(it does not get the last mile\), problem 3, \(it does not get into the building with enough power for all the students\), problem 4 \(it does not get to where the students need it with enough power for all the students in the class\) OR A COMBINATION OF ALL OF THESE PROBLEMS.
+This is the multi-facetted, complicated question.  The answer is maybe problem 2 \(it does not get the last mile\), problem 3, \(it does not get into the building with enough power for all the students\), problem 4 \(it does not get to where the students need it with enough power for all the students in the class\) OR A COMBINATION OF ALL OF THESE PROBLEMS.
