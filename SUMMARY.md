@@ -2,8 +2,8 @@
 
 * [About This Guide](README.md)
 * [Frequently Asked Questions](FAQ.md)
-* [Conceptualizing Networks](networking-analogies.md)
-* [Common Problems](problem-types-examples.md)
+* [Conceptualizing Networks: the Water Analogy](networking-analogies.md)
+* [DRAFT/CONCEPT -- Common Problems](problem-types-examples.md)
 	* 	[Diagnosing us an "Inside Out" Model](inside-out.md)
 	* 	[Diagnosing using a "Bottoms Up" Model](bottoms-up.md)
 * [Physical Networking Infrastructure](network-infrastructure.md)

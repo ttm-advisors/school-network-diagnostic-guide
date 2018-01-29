@@ -42,9 +42,9 @@ The original version of this guide was developed by TTM Advisors LLC under the s
 <table border="0" align="center">
 <tr border="0">
 <td border="0">
-<img src="/assets/heckscher-logo.png" width="150" wrap="inline">
+<img src="/assets/logos/heckscher-logo.png" width="150" wrap="inline">
 </td>
-<td border="0"><img src="/assets/TTM_Advisors_LLC_Logo.png"  width="150" wrap="inline">
+<td border="0"><img src="/assets/logos/TTM_Advisors_LLC_Logo_1200px.png"  width="150" wrap="inline">
 </td>
 </tr>
 </table>
