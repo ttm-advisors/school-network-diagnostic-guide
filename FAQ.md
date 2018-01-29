@@ -8,11 +8,9 @@
 * [How do you get the internet in the school building to the students who want to use it?](#how-do-you-get-the-internet-in-the-school-building-to-the-students-who want-to-use-it)
 
 ### What is "bandwidth"?
-Bandwidth is a measure of internet speed -- the amount of information or data (specifically bits -- the 1s and 0s) that can come to a computer from the internet \(download speed\) and from a computer back to the internet \(upload speed\).
+Bandwidth is a measure of internet speed -- the amount of information or data (specifically bits -- the 1s and 0s) that can come to a computer from the internet \(download speed\) and go from a computer back to the internet \(upload speed\). "Bits" are the most fundamental, most atomic, unit of all digital communication.
 
-Internet speed is calculated based on how many bits a connection can carry per second. "Bits" are the individual 1s and 0s are most fundamental unit of all digital communication.
-
-Mbps stands for megabits per second and is a common unit used to measure the speed of internet connections. 1 Mbps is equal to 1,000,000 bit per second. Slower network connections may be measured in Kbps (Kbps) - 1,000 bits per second. Very high speed connections will be measured in gigabits per second - 1 billion bits per second.
+"Mbps" stands for megabits per second and is a common unit used to measure the speed of internet connections. 1 Mbps is equal to 1,000,000 bits per second that can travel through a network. Slower network connections may be measured in Kbps (Kbps) - 1,000 bits per second. Very high speed connections will be measured in gigabits per second - 1 billion bits per second.
 
 Conversions and examples:
 * 1 Gbps = 1000 Mbps = 1,000,000 Kbps = 1,000,000,000 bps.
@@ -20,6 +18,11 @@ Conversions and examples:
 * Early first generation "high speed" DSL and cable modem services were in the area of 500kbps to 1Mbps (1000kbps).
 * A standard speed offered by Verizon's home FIOS internet service is 100 Mbps, approximately 100x faster than the first generation "high speed" internet services of 20 years ago.
 * Some companies (e.g., Spectrum) now offer 1 Gbps home service.
+
+Bits should not be confused with bytes. A byte is eight bits. With eight bits - eight 1s and 0s - there is enough variation combinations of 1s and 0s that can exist that this size becomes quite useful to programmers. As such it is bytes, not bits, that we measure things like files.
+
+The following picture is of a school in the Bronx. The size of this file is 52,000 bytes (52 kilobytes, or KB). Given there are 8 bits in every byte that means there are 416,000 bits in this file. If an internet connection can transfer data at 1Mbps (1,000,000 bits per second), it will take just under a half second for this image to be transferred from the server on which its hosted to your computer.
+<center><img src="/assets/buildings/NYC_Dept_Ed_panoramic_photo_Theodore_Roosevelt_HS_building_Jun_2004.jpg" width="600" align="center" border="1"></center>
 
 ### Where does bandwidth for schools come from and is there enough to go around?
 New York City, given its prominent global stature, is generously supplied with bandwidth to the city. Internet bandwidth comes through the physical lines, owned by large global telecoms, that pass under the Hudson and East Rivers. These telecoms in turn sell internet access to homes and businesses. Some telecoms also choose to resell/wholesale bandwidth to smaller internet service providers who work directly with home and business end users.
