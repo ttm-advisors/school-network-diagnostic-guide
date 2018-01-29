@@ -71,8 +71,14 @@ One of the early problems Wifi helped solve, especially in schools that  that it
 
 In older schools especially, WiFi is an important
 
-### How do these pieces - the public internet and the DOE connection to it, the DOE ring and nodes that compose its WAN, the last mile, and schools' own 
+### How do these pieces - the public internet and the DOE connection to it, the DOE ring and nodes that compose its WAN, the last mile, and schools' own network fit together?
+See the following diagram:
+<img src="/assets/diagrams/doe-network-diagram_annotated.png" width="400" align="center">
 
+The key components are:
+1. The public internet. The internet is the largest wide area network of them all. To the internet is connected the various resources a school might access including Google, Wikipedia, an online learning management system, various "backends" to applications on phones and laptops, and "cloud" services such as Dropbox
+2. The NYC DOE wide area network.
+3. A schools' local area network. 
 
 ### New York City has never really figured out how to do it right
 In 2007 New York City began installing cables, connections and other things required to provide high speed internet to school buildings.  It spent a lot of money, \(over $300 million\) and by one account it did not put adequate controls and oversight in place to ensure that the system-wide upgrade was done properly or within budget.  Surveys done by various people show there are serious limitations on the availability of high speed internet in schools, particularly in areas of underserved students.
