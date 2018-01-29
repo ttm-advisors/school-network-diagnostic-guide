@@ -59,15 +59,11 @@ What are the implications of the aggregate bandwidth exceeding what's available?
 ### How do you get the internet in the school building to the students who want to use it?
 Assuming there is enough internet (\(enough "bandwidth"\)) available through the network connection to the building \("the last mile"\) to support all concurrent internet users at a school concurrently, how does it get to the students who are spread out in different places in the building?
 
-In technical language this problem is solved by distributing bandwidth either by wires in the building or through the air wirelessly using a technology called "WiFi". <img src="/assets/photos/DOE_WAP.jpg" width="250" wrap="inline">
+In technical language this problem is solved by distributing bandwidth either by wires in the building or through the air wirelessly using a technology called "WiFi".
 
-Nowadays in schools in New York city, it's the various administrators' computers in the main office, along with a desktop computer in a classroom for teacher use, that are those connected by wires. The wires are cabling designed for networks that in the jargon are called "CAT 5" or "CAT 6" cables. These cables looks like telephone wire (itself technically called "CAT 3") but thicker with slightly bigger, wider jacks. Those of you who use the internet in an office setting 20 years may have had short 3' or 5' versions of these, often simply referred to as a "network cable" that they carried with them to use to connect to the office network.
+Nowadays in New York City District schools, it's the various administrators' computers in the main office, along with a desktop computer in a classroom for teacher use, that are those connected by wires. The wires are cabling designed for networks that in the jargon are called "CAT 5" or "CAT 6" cables, and are run in the walls. These cables looks like telephone wire (itself technically called "CAT 3") but thicker with slightly bigger, wider jacks. Those of you who use the internet in an office setting 20 years may have had short 3' or 5' versions of these, often simply referred to as a "network cable" that they carried with them to use to connect to the office network.
 
-The majority of a schools' internet users, especially students, connect wirelessly using WiFi. Specifically bandwidth comes to their device (e.g., a laptop) through a radio signal than emanates from a nearby "Wireless Access Point" (a "WAP")
-
-
-
-
+<img src="/assets/photos/DOE_WAP.jpg" width="250" align="right">The majority of a schools' internet users, especially students, connect wirelessly using WiFi. Using Wifi, bandwidth comes to their device (e.g., a laptop) through a radio signal than emanates from a nearby "Wireless Access Point" (a "WAP"; example from a DOE school pictured to the right). The "WAP" is connected to the "last mile" using the same physical network for CAT 5 or CAT 6 cables that connected devices, like office desktops, that used wired connections.
 
 One of the early problems Wifi helped solve, especially in schools that  that it allowed
 
