@@ -19,9 +19,9 @@ Conversions and examples:
 * A standard speed offered by Verizon's home FIOS internet service is 100 Mbps, approximately 100x faster than the first generation "high speed" internet services of 20 years ago.
 * Some companies (e.g., Spectrum) now offer 1 Gbps home service.
 
-Bits should not be confused with bytes. A byte is eight bits. With eight bits - eight 1s and 0s - there is enough variation combinations of 1s and 0s that can exist that this size becomes quite useful to programmers. As such it is bytes, not bits, that we measure things like files.
+Bits should not be confused with bytes. A byte is eight bits. With eight bits - eight 1s and 0s - there are enough different permutations of 1s and 0s possible (specifically 256) that this amount of bits used together becomes quite useful to programmers. It is with bytes, not bits, that we measure things like files that get transferred on a network.
 
-The following picture is of a school in the Bronx. The size of this file is 52,000 bytes (52 kilobytes, or KB). Given there are 8 bits in every byte that means there are 416,000 bits in this file. If an internet connection can transfer data at 1Mbps (1,000,000 bits per second), it will take just under a half second for this image to be transferred from the server on which its hosted to your computer.
+The following picture is of a school in the Bronx. The size of this file that contains this picture is 52,000 bytes. Given there are 8 bits in every byte that means there are 416,000 bits in this file. If an internet connection can transfer data at 1Mbps (1,000,000 bits per second), it will take just under a half second for this image to be transferred from the server on which its hosted to your computer.
 <center><img src="/assets/buildings/NYC_Dept_Ed_panoramic_photo_Theodore_Roosevelt_HS_building_Jun_2004.jpg" width="600" align="center" border="1"></center>
 
 ### Where does bandwidth for schools come from and is there enough to go around?
@@ -91,5 +91,9 @@ In 2007 New York City began installing cables, connections and other things requ
 In June 2017 New York City asked that companies bid on the right to upgrade the system and has $750 million allocated in a master plan to do so by 2020.  Experts point out that there are serious questions about how the money will be spent and whether by the time the planned upgrades are done they will be adequate.  An [city audit report from 2017](https://comptroller.nyc.gov/wp-content/uploads/documents/SI16_082A.pdf) reports that
 
 ### So what is the problem in any one school building?
+This is the multi-facetted, complicated question. Some common problems include:
+* [Insufficient Bandwidth](problems-types-examples.md#insufficient-last-mile bandwidth) to the school itself. The "last-mile" "pipe" is too small to carry the aggregate bandwidth going to and from the various devices with in a school
+* [Underpowered and overused WAPs]
+* [WAPs too far from end users]
 
-This is the multi-facetted, complicated question.  The answer is maybe problem 2 \(it does not get the last mile\), problem 3, \(it does not get into the building with enough power for all the students\), problem 4 \(it does not get to where the students need it with enough power for all the students in the class\) OR A COMBINATION OF ALL OF THESE PROBLEMS.
+These problems may also exist in combination, compounding each other.
