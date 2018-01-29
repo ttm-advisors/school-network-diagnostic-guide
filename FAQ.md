@@ -85,15 +85,15 @@ The key components are:
 2. The NYC DOE wide area network. This includes
 3. A schools' local area network.
 
-### New York City has never really figured out how to do it right
-In 2007 New York City began installing cables, connections and other things required to provide high speed internet to school buildings.  It spent a lot of money, \(over $300 million\) and by one account it did not put adequate controls and oversight in place to ensure that the system-wide upgrade was done properly or within budget.  Surveys done by various people show there are serious limitations on the availability of high speed internet in schools, particularly in areas of underserved students.
+### What does it seem like its been particularly hard for New York School to get it right?
+In 2007 New York City began installing cables, connections and other things required to provide high speed internet to school buildings.  The city spent a lot of money, \(over $300 million\) and by some accounts it did not put adequate controls and oversight in place to ensure that the system-wide upgrade was done properly or within budget.  Surveys done by various people show there are serious limitations on the availability of high speed internet in schools, particularly in areas of underserved students.
 
-In June 2017 New York City asked that companies bid on the right to upgrade the system and has $750 million allocated in a master plan to do so by 2020.  Experts point out that there are serious questions about how the money will be spent and whether by the time the planned upgrades are done they will be adequate.  An [city audit report from 2017](https://comptroller.nyc.gov/wp-content/uploads/documents/SI16_082A.pdf) reports that
+In June 2017 New York City asked that companies bid on the right to upgrade the system and has $750 million allocated in a master plan to do so by 2020.  Experts point out that there are serious questions about how the money will be spent and whether by the time the planned upgrades are done they will be adequate.
 
 ### So what is the problem in any one school building?
 This is the multi-facetted, complicated question. Some common problems include:
-* [Insufficient Bandwidth](problems-types-examples.md#insufficient-last-mile bandwidth) to the school itself. The "last-mile" "pipe" is too small to carry the aggregate bandwidth going to and from the various devices with in a school
-* [Underpowered and overused WAPs]
-* [WAPs too far from end users]
+* [Insufficient Bandwidth](problems-types-examples.md#insufficient-last-mile-bandwidth) to the school itself. The "last-mile" "pipe" is too small to carry the aggregate bandwidth going to and from the various devices with in a school
+* [Underpowered and overused WAPs](problems-types-examples.md#underpowered-and-overused-WAPs)
+* [WAPs too far from end users](problems-types-examples.md#WAPs-too-far-from-end-users)
 
 These problems may also exist in combination, compounding each other.
