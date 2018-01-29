@@ -6,6 +6,9 @@
 * [Why are wired connections used to connect schools?](#why-are-wired-connections-used-to-connect-schools)
 * [How much last-mile bandwidth does the school building need?](#how-much-last-mile-bandwidth-does-the-school-building-need)
 * [How do you get the internet in the school building to the students who want to use it?](#how-do-you-get-the-internet-in-the-school-building-to-the-students-who want-to-use-it)
+* [How do these pieces all fit together?](#how-do-these-pieces-all-fit-together)
+* [Why does it seem like it's been particularly hard for New York City to get it right?](#why-does-it-seem-like-its-been-particularly-hard-for-New-York-City-to-get-it-right)
+* [So what is the problem in any one school building?](#So-what-is-the-problem-in-any-one-school-building)
 
 ### What is "bandwidth"?
 Bandwidth is a measure of internet speed -- the amount of information or data (specifically bits -- the 1s and 0s) that can come to a computer from the internet \(download speed\) and go from a computer back to the internet \(upload speed\). "Bits" are the most fundamental, most atomic, unit of all digital communication.
@@ -15,13 +18,13 @@ Bandwidth is a measure of internet speed -- the amount of information or data (s
 Conversions and examples:
 * 1 Gbps = 1000 Mbps = 1,000,000 Kbps = 1,000,000,000 bps.
 * Dial-up modems used to connect to the internet in the 1990s were usually 14.4kbps or 28.8kbps
-* Early first generation "high speed" DSL and cable modem services were in the area of 500kbps to 1Mbps (1000kbps).
+* Early first generation "high speed" DSL and cable modem services were in the range of 500kbps to 1Mbps (1000kbps).
 * A standard speed offered by Verizon's home FIOS internet service is 100 Mbps, approximately 100x faster than the first generation "high speed" internet services of 20 years ago.
-* Some companies (e.g., Spectrum) now offer 1 Gbps home service.
+* Some companies (e.g., Spectrum) now offer 1 Gbps home service, 1000x an early era high speed connection.
 
-Bits should not be confused with bytes. A byte is eight bits. With eight bits - eight 1s and 0s - there are enough different permutations of 1s and 0s possible (specifically 256) that this amount of bits used together becomes quite useful to programmers. It is with bytes, not bits, that we measure things like files that get transferred on a network.
+Bits should not be confused with bytes. A byte is eight bits. With eight bits - eight 1s and 0s - there are enough different permutations of 1s and 0s possible (specifically 256 combinations) that this amount of bits when used together becomes quite useful to programmers. So it is with bytes, not bits, that we measure things like files that get transferred on a network.
 
-The following picture is of a school in the Bronx. The size of this file that contains this picture is 52,000 bytes. Given there are 8 bits in every byte that means there are 416,000 bits in this file. If an internet connection can transfer data at 1Mbps (1,000,000 bits per second), it will take just under a half second for this image to be transferred from the server on which its hosted to your computer.
+The following picture is of a school in the Bronx. The size of the file that contains this picture is 52,000 bytes. Given there are 8 bits in every byte that means there are 416,000 bits in this file. If an internet connection can transfer data at 1Mbps (1,000,000 bits per second), it will take just under a half second for this image to be transferred from the server on which its hosted to your computer.
 <center><img src="/assets/buildings/NYC_Dept_Ed_panoramic_photo_Theodore_Roosevelt_HS_building_Jun_2004.jpg" width="600" align="center" border="1"></center>
 
 ### Where does bandwidth for schools come from and is there enough to go around?
@@ -72,28 +75,31 @@ Nowadays in New York City District schools, it's the various administrators' com
 
 <img src="/assets/photos/DOE_WAP.jpg" width="250" align="right">The majority of a schools' internet users, especially students, connect wirelessly using WiFi. Using Wifi, bandwidth comes to their device (e.g., a laptop) through a radio signal than emanates from a nearby "Wireless Access Point" (a "WAP"; example from a DOE school pictured to the right). The "WAP" is connected to the "last mile" using the same physical network for CAT 5 or CAT 6 cables that connected devices, like office desktops, that used wired connections.
 
-One of the early problems Wifi helped solve, especially in schools that  that it allowed
+One of the early problems Wifi helped solve, especially in older schools that may not have had extensive wired networks, was to create more areas on the building where the internet could be used, so long as those devices could be reasonably close to a WAP that itself has to be connected to a wired connection.
 
-In older schools especially, WiFi is an important
+Developments in WiFi technology have improved the range of WAPs as well as the the amount of connections a single WAP can handle. But just as technology has improved, so too have the amount of devices connecting and the amount of bandwidth each device uses increased. The amount of WAPs in a school, their location, and their physical power which manifests as the strength of the emitted radio signal all are important factors in the speed and reliability of the WiFi portion of a school network.
 
-### How do these pieces - the public internet and the DOE connection to it, the DOE ring and nodes that compose its WAN, the last mile, and schools' own network fit together?
+### How do these pieces all fit together?
+How does this all - the public internet and the DOE connection to it, the DOE ring and nodes that compose its WAN, the last mile, and schools' own network work in tandem?
+
 See the following diagram:
 <center><img src="/assets/diagrams/doe-network-diagram_annotated.png" width="600" align="center" border="1"></center>
 
 The key components are:
 1. The public internet. The internet is the largest wide area network of them all. To the internet is connected the various resources a school might access including Google, Wikipedia, an online learning management system, various "backends" to applications on phones and laptops, and "cloud" services such as Dropbox
-2. The NYC DOE wide area network. This includes
-3. A schools' local area network.
+2. The NYC DOE wide area network. This includes the ring that connects nodes around the city as well as last-mile connections. It also includes any applications and services that are hosted by the DOE themselves.
+3. A schools' local area network. This is all of the equipment, cabling, and wireless within the four walls of the school.
 
-### What does it seem like its been particularly hard for New York School to get it right?
-In 2007 New York City began installing cables, connections and other things required to provide high speed internet to school buildings.  The city spent a lot of money, \(over $300 million\) and by some accounts it did not put adequate controls and oversight in place to ensure that the system-wide upgrade was done properly or within budget.  Surveys done by various people show there are serious limitations on the availability of high speed internet in schools, particularly in areas of underserved students.
+### Why does it seem like it's been particularly hard for New York City to get it right?
+[Note for Peter: I think I know which projects and budgets you are referring to here, but it would be helpful if you could spell each out so I can propertly reference and desribe them] In 2007 New York City began installing cables, connections and other things required to provide high speed internet to school buildings.  The city spent a lot of money, \(over $300 million\) and by some accounts it did not put adequate controls and oversight in place to ensure that the system-wide upgrade was done properly or within budget.  Surveys done by various people show there are serious limitations on the availability of high speed internet in schools, particularly in areas of underserved students.
 
 In June 2017 New York City asked that companies bid on the right to upgrade the system and has $750 million allocated in a master plan to do so by 2020.  Experts point out that there are serious questions about how the money will be spent and whether by the time the planned upgrades are done they will be adequate.
 
-### So what is the problem in any one school building?
+### So what is the [problem](problems-types-examples.md) in any one school building?
 This is the multi-facetted, complicated question. Some common problems include:
-* [Insufficient Bandwidth](problems-types-examples.md#insufficient-last-mile-bandwidth) to the school itself. The "last-mile" "pipe" is too small to carry the aggregate bandwidth going to and from the various devices with in a school
-* [Underpowered and overused WAPs](problems-types-examples.md#underpowered-and-overused-WAPs)
-* [WAPs too far from end users](problems-types-examples.md#WAPs-too-far-from-end-users)
+* [Insufficient Bandwidth](problems-types-examples.html#insufficient-last-mile-bandwidth) to the school itself. The "last-mile" "pipe" is too small to carry the aggregate bandwidth going to and from the various devices with in a school
+* Too many users. While ideally the last-mile capacity should be able to handle growth in use, the network can become overwhelmed if many more devices are put on the network than the number for which it was planned. A common cause for this is when students are given the passcode needed to connect to the network and then share it resulting in a large number of personal devices being connected to the school network.
+* [Underpowered and overused WAPs](problems-types-examples.html#underpowered-and-overused-WAPs). The WAP in a classroom is not powerful enough to handle all of the students at the same time.
+* [WAPs too far from end users](problems-types-examples.html#WAPs-too-far-from-end-users). WAPs are not located near to where users need them.
 
 These problems may also exist in combination, compounding each other.
