@@ -29,7 +29,9 @@ The internet traffic for devices of the administrators, teachers, and students w
 ### How does bandwidth get to a school building?
 The problem with internet access to schools really starts with getting enough bandwidth into the school building itself. There are two components to how internet traffic gets from from the DOE's internet gateway (provided now by Lightower) to a school:
 
-* First, internet traffic travels from the DOE's internet connection (Lightower) into large capacity fiber optic wires, leased by the DOE. These lines create a "ring" across the city that connect seven Department of Education "nodes" located around the five boroughs. A node is a meeting point of network connections, much like the the joints that might connect different water pipes in a plumbing system.
+* First, internet traffic travels from the DOE's internet connection (Lightower) into large capacity fiber optic wires, leased by the DOE. These lines create a "ring" across the city that connect seven Department of Education "nodes" located around the five boroughs. A node is a meeting point of network connections, much like the the joints that might connect different water pipes in a plumbing system. Here's a photo of this ring visualized on a monitoring screen in the Department of Education's Network Operating Center:
+<center><img src="/assets/photos/DOE_NOC_SONETRING.jpg" width="600" align="center" border="1"></center>
+
 
 * Second, traffic travels to schools whichever of these seven nodes on the ring is geographically closest to their building. The traffic the closest node to the school building travels through a wired connection, called a circuit, provided by either Verizon or Lightower. This connection from the school building to the closet DOE "node" is sometimes referred to as the "last mile" (and the problem of getting enough bandwidth through that connection the "last mile problem"). The speed of this connection may range from 10 Mbps to 100 Mbps.  The DOE is currently in the process upgrade all circuits in the city to each school building to 100Mbps for single school campuses, 150 Mbps for shared campuses.
 
@@ -73,12 +75,12 @@ In older schools especially, WiFi is an important
 
 ### How do these pieces - the public internet and the DOE connection to it, the DOE ring and nodes that compose its WAN, the last mile, and schools' own network fit together?
 See the following diagram:
-<img src="/assets/diagrams/doe-network-diagram_annotated.png" width="400" align="center">
+<center><img src="/assets/diagrams/doe-network-diagram_annotated.png" width="600" align="center" border="1"></center>
 
 The key components are:
 1. The public internet. The internet is the largest wide area network of them all. To the internet is connected the various resources a school might access including Google, Wikipedia, an online learning management system, various "backends" to applications on phones and laptops, and "cloud" services such as Dropbox
-2. The NYC DOE wide area network.
-3. A schools' local area network. 
+2. The NYC DOE wide area network. This includes
+3. A schools' local area network.
 
 ### New York City has never really figured out how to do it right
 In 2007 New York City began installing cables, connections and other things required to provide high speed internet to school buildings.  It spent a lot of money, \(over $300 million\) and by one account it did not put adequate controls and oversight in place to ensure that the system-wide upgrade was done properly or within budget.  Surveys done by various people show there are serious limitations on the availability of high speed internet in schools, particularly in areas of underserved students.
